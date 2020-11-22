@@ -12,7 +12,7 @@ const Search = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     if (text === '') {
-      alertContext.setAlert('Please enter somethig', 'light');
+      alertContext.setAlert('Please enter search query', 'light');
       return;
     }
 
